@@ -1,13 +1,20 @@
-This is a simple bot to Delete User Messages based on Groupmembers Votes.
+# ibCleaner Bot
 
-# install
+This is a simple Telegram bot to Delete User Messages based on Groupmembers Votes.
 
-create a new config.py that extends sampleconfig.py and insert bot Token
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/harikrishnapisharody/imdbclean)
+
+
+## Deploy locally
+
+Edit config.py and add your token
 
 ```
 python3 -m venv ibcenv
 . /ibcenv/bin/activate
-pip install -r requirement.txt
-python bot.py
+pip3 install -r requirements.txt
+python3 bot.py
 ```
-

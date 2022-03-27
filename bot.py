@@ -55,7 +55,7 @@ def admin_only(func):
     return inner
 
 
-class ibCleanerBot:
+class imdbclean:
     def __init__(self, config):
         self.DEFAULT_VOTE_COUNT = int(config.DEFAULT_VOTE_COUNT)
         self.DEFAULT_DELETE_TIMEOUT = int(config.DEFAULT_DELETE_TIMEOUT)
